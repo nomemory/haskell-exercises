@@ -3,7 +3,8 @@ module MyMethods
  myFoldl ,
  myFlip ,
  myConcatMap ,
- myGroup
+ myGroup,
+ myRepeat
 )
 where
 
@@ -34,3 +35,7 @@ myGroup = foldr grouper []
               grouper el ((x:xs):ys)
                 | el == x = ((el:x:xs):ys)
                 | otherwise = ([el]:(x:xs):ys)
+
+myRepeat ::  Int -> a -> [a]
+myRepeat 0 a = []
+myRepeat x a = a : (myRepeat (x-1) a)
