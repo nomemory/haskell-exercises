@@ -1,6 +1,5 @@
-# 99-haskell
+# haskell-exercises
 
-A repo containing my solutions for the [99 Haskell Problems](https://wiki.haskell.org/99_questions).
+A repo containing some of my Haskell "experiments".
 
-*Note:* I enjoy programming in a Functional paradigm so I've decided to sharpen my Haskell skills. Nothing fancy.
-
+* `/99-haskell-problems/` Contains solutions for those exercises: [99 Haskell Problems](https://wiki.haskell.org/99_questions)
