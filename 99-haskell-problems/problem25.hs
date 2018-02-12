@@ -14,6 +14,11 @@ Prelude System.Random>"badcef"
 
 --}
 
+{--
+Note: This is not the most efficient solution.
+I wanted to create a myExtractAt method and use it in this context.
+--}
+
 import System.Random
 import System.Environment
 
